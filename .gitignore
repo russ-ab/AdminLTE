@@ -7,3 +7,6 @@ TODO
 *.zip
 test.html
 *.log
+
+bower_components/
+dist/
