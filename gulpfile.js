@@ -18,3 +18,10 @@ gulp.task('styles', function () {
     .pipe($.sourcemaps.write())
     .pipe(gulp.dest('dist/styles'));    
 });
+
+gulp.task('fonts', function () {
+  return gulp.src(require('main-bower-files')({
+    filter: '**/*.{eot,svg,ttf,woff,woff2}'
+  }).concat('/fonts/**/*'))    
+    .pipe(gulp.dest('dist/fonts'));
+});
