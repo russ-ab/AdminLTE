@@ -1,9 +1,10 @@
 {
-  "name": "AdminLTE",
-  "version": "2.1.2",
+  "name": "AdminLTE.scss",
+  "version": "3.0.0",
   "homepage": "http://almsaeedstudio.com",
   "authors": [
-    "Abdullah Almsaeed <almasaeed2010@gmail.com>"
+    "Abdullah Almsaeed <almasaeed2010@gmail.com>",
+    "aGueug <weihong.guan@gmail.com>"
   ],
   "description": "Admin dashboard and control panel template",
   "main": [
@@ -13,7 +14,8 @@
     "build/less/AdminLTE.less"
   ],
   "keywords": [
-    "css",
+    "sass",
+    "scss",
     "js",
     "html",
     "template",
@@ -29,6 +31,9 @@
     "node_modules",
     "bower_components",
     "composer.json",
-    "documentation"
-  ]
+    "documentation",
+    "**/.*",
+    "test",
+    "tests"
+  ]  
 }
