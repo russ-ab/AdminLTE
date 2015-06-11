@@ -52,6 +52,8 @@
     "fastclick": "~1.0.6",
     "Chart.js": "~1.0.2",
     "flot": "~0.8.3",
-    "bootstrap-social": "~4.9.0"
+    "bootstrap-social": "~4.9.0",
+    "seiyria-bootstrap-slider": "~4.9.1",
+    "ionrangeslider": "~2.0.10"
   }
 }
