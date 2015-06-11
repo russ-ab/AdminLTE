@@ -54,6 +54,9 @@
     "flot": "~0.8.3",
     "bootstrap-social": "~4.9.0",
     "seiyria-bootstrap-slider": "~4.9.1",
-    "ionrangeslider": "~2.0.10"
+    "ionrangeslider": "~2.0.10",
+    "jquery.inputmask": "~3.1.63",
+    "mjolnic-bootstrap-colorpicker": "~2.1.2",
+    "smalot-bootstrap-datetimepicker": "~2.3.4"
   }
 }
