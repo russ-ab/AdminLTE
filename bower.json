@@ -58,6 +58,10 @@
     "jquery.inputmask": "~3.1.63",
     "mjolnic-bootstrap-colorpicker": "~2.1.2",
     "smalot-bootstrap-datetimepicker": "~2.3.4",
-    "ckeditor": "~4.4.7"
+    "ckeditor": "~4.4.7",
+    "datatables": "~1.10.7",
+    "datatables-plugins": "~1.10.7",
+    "fullcalendar": "~2.3.1",
+    "pace": "~1.0.2"
   }
 }
