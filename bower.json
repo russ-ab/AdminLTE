@@ -4,7 +4,7 @@
   "homepage": "http://almsaeedstudio.com",
   "authors": [
     "Abdullah Almsaeed <almasaeed2010@gmail.com>",
-    "aGueug <weihong.guan@gmail.com>"
+    "aGuegu <weihong.guan@gmail.com>"
   ],
   "description": "Admin dashboard and control panel template",
   "main": [
@@ -39,7 +39,9 @@
   "dependencies": {
     "bootstrap-sass-official": "~3.3.4",
     "font-awesome": "~4.3.0",
-    "ionicons": "~2.0.1",
+    "ionicons": "~2.0.1"    
+  },
+  "devDependencies": {
     "jquery-ui": "~1.11.4",
     "iCheck": "~1.0.2",
     "morrisjs": "~0.5.1",

@@ -94,8 +94,8 @@
     $start 0%,
     $stop 100%);
   background: -o-linear-gradient($stop,
-    $start);
-  filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=0)",$stop,$start));
+    $start);  
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{ie-hex-str($stop)}', endColorstr='#{ie-hex-str($start)}', GradientType=0); // IE9 and down
 }
 
 //Added 2.1.0
