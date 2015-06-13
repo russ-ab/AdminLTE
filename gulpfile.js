@@ -26,3 +26,10 @@ gulp.task('fonts', function () {
   }).concat('/fonts/**/*'))    
     .pipe(gulp.dest('dist/fonts'));
 });
+
+// Lint JavaScript
+gulp.task('jshint', function () {
+  return gulp.src('javascripts/**/*.js')    
+    .pipe($.jshint())
+    .pipe($.jshint.reporter('jshint-stylish'))   
+});
