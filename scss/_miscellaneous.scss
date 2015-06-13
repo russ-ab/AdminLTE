@@ -279,45 +279,45 @@
 
 // Gradient Background colors
 .bg-teal-gradient {
-  @include gradient($teal !important, $teal !important, lighten($teal, 16%) !important);
+  @include gradient($teal, $teal, lighten($teal, 16%));
   color: #fff;
 }
 
 .bg-light-blue-gradient {
-  @include gradient($light-blue !important, $light-blue !important, lighten($light-blue, 12%) !important);
+  @include gradient($light-blue, $light-blue, lighten($light-blue, 12%));
   color: #fff;
 }
 
 .bg-blue-gradient {
-  @include gradient($blue !important, $blue !important, lighten($blue, 7%) !important);
+  @include gradient($blue, $blue, lighten($blue, 7%));
   color: #fff;
 }
 .bg-aqua-gradient {
-  @include gradient($aqua !important, $aqua !important, lighten($aqua, 7%) !important);
+  @include gradient($aqua, $aqua, lighten($aqua, 7%));
   color: #fff;
 }
 .bg-yellow-gradient {
-  @include gradient($yellow !important, $yellow !important, lighten($yellow, 16%) !important);
+  @include gradient($yellow, $yellow, lighten($yellow, 16%));
   color: #fff;
 }
 .bg-purple-gradient {
-  @include gradient($purple !important, $purple !important, lighten($purple, 16%) !important);
+  @include gradient($purple, $purple, lighten($purple, 16%));
   color: #fff;
 }
 .bg-green-gradient {
-  @include gradient($green !important, $green !important, lighten($green, 7%) !important);
+  @include gradient($green, $green, lighten($green, 7%));
   color: #fff;
 }
 .bg-red-gradient {
-  @include gradient($red !important, $red !important, lighten($red, 10%) !important);
+  @include gradient($red, $red, lighten($red, 10%));
   color: #fff;
 }
 .bg-black-gradient {
-  @include gradient($black !important, $black !important, lighten($black, 10%) !important);
+  @include gradient($black, $black, lighten($black, 10%));
   color: #fff;
 }
 .bg-maroon-gradient {
-  @include gradient($maroon !important, $maroon !important, lighten($maroon, 10%) !important);
+  @include gradient($maroon, $maroon, lighten($maroon, 10%));
   color: #fff;
 }
 .connectedSortable {
