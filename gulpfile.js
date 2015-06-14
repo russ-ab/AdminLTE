@@ -6,7 +6,7 @@ var del = require('del');
 var runSequence = require('run-sequence');
 
 gulp.task('styles', function () {
-  return gulp.src('scss/main.scss')
+  return gulp.src('main.scss')
     .pipe($.sourcemaps.init())
     .pipe($.sass({
       outputStyle: 'nested', // libsass doesn't support expanded yet
