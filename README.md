@@ -1,3 +1,36 @@
+admin-lte.scss
+============
+
+This repo is fork from [Almsaeed Studio's AdminLTE](https://github.com/almasaeed2010/AdminLTE)
+
+The main purpose is to make a `SCSS` version of it (the origin is in `LESS`). However, I could not help myself to make more refactory work.
+
+* build tool convert from `grunt` to `gulp`
+* most plugins have been moved to bower.json and upgrade to the latest
+* file structure is adjusted a lot 
+
+There were too many deps plugins included in the origin repo. In my point of view, that is way too much job to maintain. And in modern frontend project, most of them can be managed by bower. The main product of this template is its stylesheets and js files, not these plugins. Therefore, since most plugins has been upgraded, in bower.json, to the latest. The output may vary a little bit in the demo pages. But I do not view it as bugs. A little adjustment and tweaks would fix that quite soon.
+
+Because doing the style in the `SCSS` way, the skins your choose are defined in the `main.scss` file. it can import all skins as well as signal skin. It all up to you. 
+
+## how to test 
+
+1. fork this repo
+2. install deps
+
+```
+   $ npm install -g gulp bower http-server
+   $ npm install 
+   $ bower install 
+   $ gulp
+   $ http-server .
+```
+
+3. Then test it in your browser. default on localhost: 8080
+
+
+`Below is the origin readme`
+
 Introduction
 ============
 
