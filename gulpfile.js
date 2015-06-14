@@ -48,5 +48,5 @@ gulp.task('clean', del.bind(null, ['dist/*'], {dot: true}));
 
 // Build production files, the default task
 gulp.task('default', ['clean'], function (cb) {
-  runSequence(['jshint', 'fonts'], 'styles', cb);
+  runSequence(['jshint', 'fonts'], 'build', cb);
 });
