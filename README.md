@@ -28,10 +28,7 @@ Because doing the style in the `SCSS` way, the skins your choose are defined in 
 
 3. Then test it in your browser. default on localhost: 8080
 
-
-`Below is the origin readme`
-
-Introduction
+Introduction `Below is the origin readme`
 ============
 
 **AdminLTE** -- is a fully responsive admin template. Based on **Bootstrap 3** framework. Highly customizable and easy to use. Fits many screen resolutions from small mobile devices to large desktops. Check out the live preview now and see for yourself. 
