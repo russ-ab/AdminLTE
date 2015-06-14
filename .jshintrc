@@ -19,6 +19,7 @@
     "$": false,
     "jQuery": false,
     "AdminLTEOptions": false,
-    "FastClick": false
+    "FastClick": false,
+    "alert": false
   }
 }
