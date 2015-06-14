@@ -14,12 +14,9 @@
   "undef": true,
   "unused": "vars",
   "strict": true,
-  "globals": {
-    "define": false,
+  "globals": {    
     "$": false,
-    "jQuery": false,
-    "AdminLTEOptions": false,
-    "FastClick": false,
+    "jQuery": false,    
     "alert": false
   }
 }
