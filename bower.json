@@ -9,7 +9,8 @@
   "description": "Admin dashboard and control panel template",
   "main": [    
     "scss/**/*.scss",
-    "javascripts/app.js"    
+    "javascripts/app.js",
+    "plugins/**/*.js"
   ],
   "keywords": [
     "sass",
@@ -38,11 +39,11 @@
     "pages"
   ],
   "dependencies": {
-    "bootstrap-sass-official": "~3.3.4",
-    "font-awesome": "~4.3.0",
-    "ionicons": "~2.0.1"    
+    "bootstrap-sass-official": "~3.3.4",    
   },
   "devDependencies": {
+    "font-awesome": "~4.3.0",
+    "ionicons": "~2.0.1",    
     "jquery-ui": "~1.11.4",
     "iCheck": "~1.0.2",
     "morrisjs": "~0.5.1",
