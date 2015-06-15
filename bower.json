@@ -28,7 +28,7 @@
   "ignore": [
     "/.*",
     "node_modules",
-    "bower_components",    
+    "bower_components",
     "documentation",
     "**/.*",
     "test",
@@ -39,7 +39,7 @@
     "pages"
   ],
   "dependencies": {
-    "bootstrap-sass-official": "~3.3.4",    
+    "bootstrap-sass-official": "~3.3.4"
   },
   "devDependencies": {
     "font-awesome": "~4.3.0",
