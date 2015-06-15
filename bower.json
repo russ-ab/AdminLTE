@@ -7,11 +7,9 @@
     "aGuegu <weihong.guan@gmail.com>"
   ],
   "description": "Admin dashboard and control panel template",
-  "main": [
-    "index2.html",
-    "dist/css/AdminLTE.css",
-    "dist/js/app.js",
-    "build/less/AdminLTE.less"
+  "main": [    
+    "scss/**/*.scss",
+    "javascripts/app.js"    
   ],
   "keywords": [
     "sass",
@@ -29,12 +27,15 @@
   "ignore": [
     "/.*",
     "node_modules",
-    "bower_components",
-    "composer.json",
+    "bower_components",    
     "documentation",
     "**/.*",
     "test",
-    "tests"
+    "tests",
+    "dist",
+    "*.html",
+    "images",
+    "pages"
   ],
   "dependencies": {
     "bootstrap-sass-official": "~3.3.4",
