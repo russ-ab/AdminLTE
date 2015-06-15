@@ -13,6 +13,12 @@ There were too many deps plugins included in the origin repo. In my point of vie
 
 Because doing the style in the `SCSS` way, the skins your choose are defined in the `main.scss` file. it can import all skins as well as signal skin. It all up to you. 
 
+## install with bower
+
+```
+$ bower install admin-lte.scss
+```
+
 ## how to test 
 
 1. fork this repo
