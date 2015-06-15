@@ -1,13 +1,13 @@
 {
   "name": "AdminLTE.scss",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "homepage": "http://almsaeedstudio.com",
   "authors": [
     "Abdullah Almsaeed <almasaeed2010@gmail.com>",
     "aGuegu <weihong.guan@gmail.com>"
   ],
   "description": "Admin dashboard and control panel template",
-  "main": [    
+  "main": [
     "scss/**/*.scss",
     "javascripts/app.js",
     "plugins/**/*.js"
@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "font-awesome": "~4.3.0",
-    "ionicons": "~2.0.1",    
+    "ionicons": "~2.0.1",
     "jquery-ui": "~1.11.4",
     "iCheck": "~1.0.2",
     "morrisjs": "~0.5.1",
